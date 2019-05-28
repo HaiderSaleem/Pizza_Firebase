@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pizza"
+    android:padding="6dip">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Orders"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/active"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/served"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp"
+        android:text="Active"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/served"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Served"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/served"
+        android:layout_marginTop="33dp"
+        android:text="Add User"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/add_items"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/add"
+        android:layout_marginTop="36dp"
+        android:text="Add Items"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>

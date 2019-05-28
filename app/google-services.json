@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205185707487",
+    "firebase_url": "https://buildyourownpizza-byop.firebaseio.com",
+    "project_id": "buildyourownpizza-byop",
+    "storage_bucket": "buildyourownpizza-byop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205185707487:android:00cb3ece84ad0987",
+        "android_client_info": {
+          "package_name": "com.example.mhaidersaleem.pizza_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205185707487-047ujv7jvqfuf4uq01pst68ojb5jr9l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mhaidersaleem.pizza_admin",
+            "certificate_hash": "62c2d066d51d0ad79463b029ace1156c0dcf0136"
+          }
+        },
+        {
+          "client_id": "205185707487-7enqgirbek2b3u6i9ga0vs2os9f2kv54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmW9COKnfLjE8kdd9eBss390zRWcASqz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205185707487-7enqgirbek2b3u6i9ga0vs2os9f2kv54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dip"
+    android:background="@drawable/pizza">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="58dp"
+        android:background="?attr/actionModeBackground"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="center_vertical"
+        android:text="Order 1"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstLine"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="time"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:ignore="EllipsizeMaxLines,RtlCompat" />
+
+    <TextView
+        android:id="@+id/thirdLine"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_above="@+id/forthLine"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-193dp"
+        android:gravity="center_vertical"
+        android:text="Order 2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/forthLine"
+        android:layout_width="350dp"
+        android:layout_height="26dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="207dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="time"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:ignore="EllipsizeMaxLines,RtlCompat" />
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Order Served"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000" />
+
+</RelativeLayout>
